@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" name="The Secret Name" id="8c95458c-8d2a-4231-b1cb-ef84e2119947" gameId="a6d114c7-2e2a-4896-ad8c-0330605c90bf" gameVersion="1.0.0.0" version="1.0.0">
+ <cards>
+  <card id="42719279-7dc5-4336-8a17-ab5d36869424" name="Something Worth Fighting For">
+    <property name="Card Number" value="109"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Sanity" value="3"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Talent."/>
+    <property name="Text" value="Something Worth Fighting For may be assigned horror dealt to other investigators at your location"/>
+  </card>
+  <card id="5795c17e-62b7-428c-a06a-c099d1a859b6" name="Crack the Case">
+    <property name="Card Number" value="110"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="event"/>
+    <property name="Class" value="seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="0"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Traits" value="Insight."/>
+    <property name="Text" value="Fast. Play after an investigator discovers the last remaining clue at your location.&#10;&#10;Investigators at that location gain a total of X resources, distributed as you wish. X is that location's shroud value."/>
+  </card>
+  <card id="6fac8070-faf4-4936-902b-b6894e646ca6" name="Intel Report">
+    <property name="Card Number" value="111"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="event"/>
+    <property name="Class" value="rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="2"/>
+    <property name="Intellect" value="2"/>
+    <property name="Skill Icons" value="έέ"/>
+    <property name="Traits" value="Favor. Service."/>
+    <property name="Text" value="Discover 1 clue at your location.&#10;&#10;[reaction] When you play Intel Report, increase its cost by 2: Change &quot;Discover 1 clue&quot; to &quot;Discover 2 clues.&quot;&#10;&#10;[reaction] When you play Intel Report, increase its cost by 2: Change &quot;at your location&quot; to &quot;at a location up to 2 connections away.&quot;"/>
+  </card>
+  <card id="47ae2b3f-03cd-40c9-9c96-913e81d7aa2b" name="Sign Magick">
+    <property name="Card Number" value="112"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Ritual. Talent."/>
+    <property name="Text" value="Fast.&#10;&#10;You have 1 additional arcane slot, which can only be used to hold a [[Spell]] or [[Ritual]] asset."/>
+  </card>
+  <card id="0e928ded-d319-493a-b8db-1c6f44411740" name="Banish">
+    <property name="Card Number" value="113"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="event"/>
+    <property name="Class" value="mystic"/>
+    <property name="Level" value="1"/>
+    <property name="Cost" value="2"/>
+    <property name="Willpower" value="1"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ίά"/>
+    <property name="Traits" value="Spell."/>
+    <property name="Text" value="<b>Evade.</b> Use only on a non-[[Elite]] enemy. This evasion attempt uses [willpower] instead of [agility]. If you succeed, move the enemy just evaded to any location in play. If you succeed and a [skull], [cultist], [tablet], or [elder_thing] symbol was revealed during this evasion attempt, that enemy does not ready during the next upkeep phase."/>
+  </card>
+  <card id="0ea57635-b052-4c99-91ee-1e7533b8636a" name="Meat Cleaver">
+    <property name="Card Number" value="114"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Weapon. Melee."/>
+    <property name="Text" value="[action]: <b>Fight.</b> You get +1 [combat] for this attack (+2 [combat] instead if you have 3 or fewer remaining sanity). If this attack defeats an enemy, you may heal 1 horror. As an additional cost to initiate this ability, you may take 1 horror to have this attack deal +1 damage."/>
+  </card>
+  <card id="b55fc6a2-0df6-418f-9331-1274e8e8dae0" name=".45 Thompson">
+    <property name="Card Number" value="115"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="Multi:guardian|rogue"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="6"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Hand x2"/>
+    <property name="Traits" value="Item. Weapon. Firearm. Illicit."/>
+    <property name="Text" value="Uses (5 ammo).&#10;&#10;[action] Spend 1 ammo: <b>Fight.</b> You get +2 [combat] and deal +1 damage for this attack."/>
+  </card>
+  <card id="e0990469-269e-4da1-b3d1-af3e81ac1d64" name="Scroll of Secrets">
+    <property name="Card Number" value="116"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="Multi:seeker|mystic"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="1"/>
+    <property name="Intellect" value="1"/>
+    <property name="Skill Icons" value="έ"/>
+    <property name="Slot" value="Hand"/>
+    <property name="Traits" value="Item. Tome."/>
+    <property name="Text" value="Uses (3 secrets).&#10;&#10;[action] Exhaust Scroll of Secrets and spend 1 secret: Look at the bottom card of any investigators's deck or the encounter deck. Then, either discard that card, add it to its owner's hand, place it on the bottom of its deck, or place it on the top of its deck."/>
+  </card>
+  <card id="7e8efd7c-c438-4276-883b-d7b926413feb" name="Tennessee Sour Mash">
+    <property name="Card Number" value="117"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="Multi:rogue|survivor"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Willpower" value="1"/>
+    <property name="Skill Icons" value="ά"/>
+    <property name="Traits" value="Item. Illicit."/>
+    <property name="Text" value="Uses (2 supplies).&#10;&#10;[fast] Exhaust Tennessee Sour Mash and spend 1 supply: You get +2 [willpower] for a skill test on a teachery card.&#10;&#10;[action] Discard Tennessee Sour Mash: <b>Fight.</b> You get +3 [combat] for this attack."/>
+  </card>
+  <card id="7a23722f-f292-426e-be5f-f79a96ed0d13" name="Enchanted Blade">
+    <property name="Card Number" value="118"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="Multi:mystic|guardian"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Combat" value="1"/>
+    <property name="Skill Icons" value="ή"/>
+    <property name="Slot" value="Hand. Arcane"/>
+    <property name="Traits" value="Item. Relic. Weapon. Melee."/>
+    <property name="Text" value="Uses (3 charges).&#10;&#10;[action]: <b>Fight.</b> You get +1 [combat] for this attack. As an additional cost to initiate this ability, you may spend 1 charge to empower the blade. If you do, you get +1 [combat] and deal +1 damage for this attack."/>
+  </card>
+  <card id="14c45c43-e4cd-4c10-b65f-2dafb8cba738" name="Grisly Totem">
+    <property name="Card Number" value="119"/>
+    <property name="Quantity" value="2"/>
+    <property name="Type" value="asset"/>
+    <property name="Class" value="Multi:survivor|seeker"/>
+    <property name="Level" value="0"/>
+    <property name="Cost" value="3"/>
+    <property name="Agility" value="1"/>
+    <property name="Skill Icons" value="ί"/>
+    <property name="Slot" value="Accessory"/>
+    <property name="Traits" value="Item. Charm."/>
+    <property name="Text" value="[reaction] After you commit a card to a skill test, exhaust Grisly Totem: That card gains another instance of one of its skill icons of your choice."/>
+  </card>
+ </cards>
+</set>
